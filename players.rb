@@ -6,4 +6,8 @@ class Player
     @name = name
     @points = 3
   end
+
+  def subtract
+    @points -= 1
+  end
 end
